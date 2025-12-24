@@ -15,7 +15,7 @@ pipeline{
         }
         stage('Checkout from Git'){
             steps{
-                git branch: 'main', url: 'https://github.com/uniquesreedhar/Reddit-Project.git'
+                git branch: 'main', url: 'https://github.com/zohaib9990/Reddit-Project.git'
             }
         }
         stage('Install Dependencies') {
